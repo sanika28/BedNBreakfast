@@ -8,9 +8,9 @@ from google.cloud import storage
 
 def food_order(request):
     session = boto3.Session(
-        aws_access_key_id='ASIAVMP3EBDRX5R67AFM',
-        aws_secret_access_key='tVOS8Y2RhYRPvcbIF9POyjaQHZfR9A9WpoFE6cTm',
-        aws_session_token='FwoGZXIvYXdzEFwaDC2xFtyPXoz60+W/UiLAAYn172C+DF/yUc1X3n6NlsdG8BVQV9IwUUAd9As9Ab2EYtnx4G7mpYsQ7g/kPPR6eiT0xxkg/pUjJ7efL0YgjYtorAYKLJ8eI4lRz4Q4cWrIhFG6hcSKIglXpoPYOL6VKx72uhw8JIQM9Y/WA9t3f3Dfg708GkAOckfLD+8L7v3uE8YOWRJiHo04Kti9piVHM4+4cFTzevZto4vad1+h9K85sTszKHQyVz1AW1sLMj8lZBPldci2jnpWeb+sgD2inSi6lPaWBjIt40UueJc7Lpvn3WGNaGnoM5Ubrjp/JkUOnRVIDRpH0qArymGdTcib/jLlerdh',
+        aws_access_key_id='',
+        aws_secret_access_key='',
+        aws_session_token='',
         region_name='us-east-1'
     )
     print('session valid', session)
